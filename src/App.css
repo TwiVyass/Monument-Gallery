@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.controls {
+  margin-bottom: 100px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.monument {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.monument img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.monument button {
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.monument button:hover {
+  background-color: darkred;
+}
